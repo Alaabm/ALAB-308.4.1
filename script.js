@@ -3,8 +3,8 @@ const string = `ID,Name,Occupation,Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n
 let splitString = string.split("\n");
 let twodArray = [];
 console.log(splitString);
-splitString.forEach((alaa) => {
-twodArray.push(alaa.split(','));
+splitString.forEach((stringSection) => {
+twodArray.push(stringSection.split(','));
 });
 console.log(twodArray);
 
